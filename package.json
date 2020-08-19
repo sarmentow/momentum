@@ -1,0 +1,48 @@
+{
+  "name": "momentum",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "date-fns": "^2.14.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "serve": "serve ./build/",
+    "watch:css": "postcss src/index.css -o src/assets/main.css",
+    "build:css": "postcss src/index.css -o src/tailwind.css --env production",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "gh-pages": "^3.1.0",
+    "postcss-cli": "^7.1.1",
+    "serve": "^11.3.2",
+    "tailwindcss": "^1.6.0",
+    "tailwindcss-dark-mode": "^1.1.6"
+  }
+}
