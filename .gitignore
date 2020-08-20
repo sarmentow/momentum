@@ -20,6 +20,7 @@
 
 # built css
 main.css
+tailwind.css
 
 npm-debug.log*
 yarn-debug.log*
