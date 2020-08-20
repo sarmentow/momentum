@@ -1,68 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Momentum - just another pomodoro timer app (but better)
 
-## Available Scripts
+You can see this app live right [here](https://sarmentow.github.io/momentum)
 
-In the project directory, you can run:
+I've never quite found a pomodoro timer app that fitted exactly my workflow and was foolproof, so I built one out of nothing but a bad example of perfectionism and a lot of existencial crises in the middle.
 
-### `yarn start`
+At first, I had a grand vision for it, with features like being able to import your tasks from Trello and being able to create workspaces where you and your team would be able to see what tasks everyone was currently doing (as in right now) but every time I thought I had finished the project it just seemed like there was still a shit ton to do that had little effect on the real product features and/or was just way too complicated for such an unoriginal idea, and I just didn't feel like putting so much effort into such an unoriginal project.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Still, I've learned a lot with the development of Momentum and if you want to see a complete analysis of what I've learned from this project I suggest you go to [my personal website](https://sarmentow.github.io) where I'll be posting a breakdown of what this project has teached me.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+If you want to [contribute](##How-to-contribute) there are little things that would be nice to implement such as saving the tasks to localStorage in order for the user to not lose all their tasks if they accidentally reload or implementing a warning if the user tries to reload saying that they will lose their tasks if they do that.
 
-### `yarn test`
+## How to contribute
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install depencies with Yarn
 
-### `yarn build`
+`$ yarn`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Then build the tailwind styles with:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+`$ yarn run watch:css`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+After all of that, you can start your React server with:
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+`$ yarn start`
