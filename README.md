@@ -8,7 +8,10 @@ At first, I had a grand vision for it, with features like being able to import y
 
 Still, I've learned a lot with the development of Momentum and if you want to see a complete analysis of what I've learned from this project I suggest you go to [my personal website](https://sarmentow.github.io) where I'll be posting a breakdown of what this project has teached me.
 
-If you want to [contribute](##how-to-contribute) there are little things that would be nice to implement such as saving the tasks to localStorage in order for the user to not lose all their tasks if they accidentally reload or implementing a warning if the user tries to reload saying that they will lose their tasks if they do that. Also, I had a version of momentum with some sound effects, but I gave up on it because they were of pretty bad quality. Would be nice to add SFX again when the pomodoro has ended.
+If you want to [contribute](##how-to-contribute) there are little things that would be nice to implement such as: 
+- saving the tasks to localStorage in order for the user to not lose all their tasks if they accidentally reload or implementing a warning if the user tries to reload saying that they will lose their tasks if they do that.
+- I had a version of momentum with some sound effects, but I gave up on it because they were of pretty bad quality. Would be nice to add SFX again when the pomodoro has ended. 
+- Change the title of the window to the time left and the current task
 
 ## How to contribute
 
