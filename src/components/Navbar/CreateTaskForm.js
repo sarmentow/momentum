@@ -31,7 +31,7 @@ export default function CreateTaskForm({ creatingTask, setCreatingTask }) {
         addTask({
           ...task,
           pomodoros: parseInt(task.pomodoros),
-          _id: format(new Date(), "x"),
+          _id: Date.now(),
         });
         setTask({ title: "", pomodoros: "" });
         handleOutsideClick(e);
@@ -80,7 +80,7 @@ export default function CreateTaskForm({ creatingTask, setCreatingTask }) {
                 addTask({
                   ...task,
                   pomodoros: parseInt(task.pomodoros),
-                  _id: format(new Date(), "x"),
+                  _id: Date.now(),
                 });
                 setTask({ title: "", pomodoros: "" });
               } else {
@@ -122,7 +122,7 @@ export default function CreateTaskForm({ creatingTask, setCreatingTask }) {
                 addTask({
                   ...task,
                   pomodoros: parseInt(task.pomodoros),
-                  _id: format(new Date(), "x"),
+                  _id: Date.now(),
                 });
                 setTask({ title: "", pomodoros: "" });
               } else {
